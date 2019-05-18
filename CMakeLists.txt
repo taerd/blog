@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.12)
+project(blog)
+
+set(CMAKE_CXX_STANDARD 14)
+if(CMAKE_BUILD_TYPE STREQUAL "Release")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
+    set(EXECUTABLE_OUTPUT_PATH "C:/games/open server ultimate/OSPanel/domains/blog")
+    add_executable(blog main.cpp functions.h functions.cpp)
+    set_target_properties(blog PROPERTIES OUTPUT_NAME "index" SUFFIX ".cgi")
+else()
+    add_executable(blog main.cpp functions.h functions.cpp)
+endif()
