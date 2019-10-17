@@ -1,0 +1,73 @@
+html{
+    background-image:url('image/lighting.jpg');
+    font-family: 'Acme', sans-serif;
+}
+.header-container{
+    border-radius: 5px;
+    background:linear-gradient(90deg, #02021a, #36386a);
+    opacity: 0.8;
+    margin: 20px 100px 20px 100px;
+    padding: 10px;
+    width: 85%;
+    height: 80px;
+}
+.header-container a{
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.header-container a:hover{
+     border-top: 2px solid darkslateblue;
+}
+ul{
+    display:flex;
+    margin-left:40%;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    list-style:none;
+}
+li{
+    display: flex;
+    list-style: none;
+}
+
+.content{
+    color:whitesmoke;
+    border-radius: 5px;
+    background:linear-gradient(90deg, #02021a, #36386a);
+    opacity: 0.8;
+    margin: 20px 100px 20px 100px;
+    padding: 10px;
+    width: 85%;
+    height: 450px;
+}
+.main{
+    color:whitesmoke;
+    padding: 10px 10px 10px 30px;
+    font-size: 16px;
+}
+.footer{
+    color:whitesmoke;
+    border-radius: 5px;
+    background:linear-gradient(90deg, #02021a, #36386a);
+    opacity: 1;
+    margin: 20px 100px 20px 100px;
+    padding: 10px;
+    width: 85%;
+    height: 30px;
+}
+.footer-main{
+    float:left;
+}
+.image{
+    opacity:0.9;
+    float:left;
+    padding:10px 20px 10px 20px;
+}
+.footer-image{
+    float:right;
+    justify-content: space-between;
+}
